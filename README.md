@@ -47,10 +47,60 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
 
 ### Interfacing Details
-
+- Ethernet interfacing with ESP32
   
+  | ESP32 | Ethernet | Function |
+  |---|---|---|
+  | GP18 | SCLK | Clock pin of SPI interface for Ethernet|
+  | GP23 | MOSI/A0 | MOSI (Master OUT Slave IN) pin of SPI interface|
+  | GP19 | MISO/A1 | MISO (Master IN Slave OUT) pin of SPI interface|
+  | GP5 | CSn | Chip Select pin of SPI interface|
   
+- Display interfacing with ESP32
 
+  | ESP32 | Display | Function |
+  |---|---|---|
+  | GP14 | SCK | Clock pin of SPI interface for Display |
+  | GP13 | DIN | MOSI (Master OUT Slave IN) pin of SPI interface |
+  | GP15 | CS  | Chip Select pin of SPI interface |
+  | GP27 | DC  | Data/Command pin of SPI interface |
+  | GP26 | RES | Display Reset pin |
+  | GP4  | BL  | Backlight of display |
+
+- Joystick and button interfacing with ESP32
+
+  | ESP32 | Hardware |
+  |---|---|
+  | GP25 | Joystick Selection |
+  | GP33 | Joystick Down | 
+  | GP32 | Joystick Up |
+  | GP35 | Joystick Left | 
+  | GP34 | Joystick Right | 
+  | BL   | Boot Button |
+  
+- Breakout GPIOs
+
+  Breakout 1
+  | ESP32 | Type* | Function |
+  |---|---|---|
+  |GP12 | I/O | GPIO12, ADC2_CH5, TOUCH5, RTC_GPIO15, MTDI, HSPIQ, HS2_DATA2, SD_DATA2, EMAC_TXD3 |
+  |GP2  | I/O | GPIO2, ADC2_CH2, TOUCH2, RTC_GPIO12, HSPIWP, HS2_DATA0, SD_DATA0 |
+  |GP36 | I | GPIO36, ADC1_CH0, RTC_GPIO0 |
+  |GP39 | I | GPIO39, ADC1_CH3, RTC_GPIO3 |
+  |GND  | P | Ground pin |
+  |3V3  | P | Positive Supply 3.3V |
+  
+  Breakout 2
+  | ESP32/Ethernet | Type* | Function |
+  |---|---|---|
+  |GP16 |  I/O | GPIO16, HS1_DATA4, U2RXD, EMAC_CLK_OUT |
+  |GP17 |  I/O | GPIO17, HS1_DATA5, U2TXD, EMAC_CLK_OUT_180 |
+  |GP22 |  I/O |GPIO22, VSPIWP, U0RTS, EMAC_TXD1 |
+  |ET_INT | - | Ethernet Interrupt pin |
+  |GP21 | I/O | GPIO21, VSPIHD, EMAC_TX_EN |
+  |ET_RST | - | Ethernet Reset pin |  
+
+  *I-INPUT, O-OUTPUT, P-POWER & T-HIGH IMPEDENCE
 
 
 Play with it and create your own, **Happy Coding!** 
