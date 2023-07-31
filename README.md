@@ -102,7 +102,42 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
   *I-INPUT, O-OUTPUT, P-POWER & T-HIGH IMPEDENCE
 
+### 1. Configure and Setup Development Environment
+   - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
+   - Once installation done will add ESP32-Wroom-32 board support into IDE, for this first you need to add below link into preference:
+     ``` https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json ```
+     
+     Select File > Preference, and add link as show in below image,
+      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/preference_board.gif" />
+      
+   - Now will install ESP32 based boards as shown in below image,
 
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/install_ESP32boards.gif" />
+     
+   - Once done, keeping default settings select the ESP32 Dev Module with suitable com port (may be different in your case) as shown below, 
+
+     <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/board_selection.gif">
+     
+     
+### 2. Installing Libraries
+   - Download [library zip file]() provided here in github.
+   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
+
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
+     
+### 3. Testing First Code
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in github which you can download and try. 
+   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESPi.
+     <img src="">
+     
+   - Checkout other examples below and build your own custom program codes using those references.
+
+## Examples Codes  
+   The [example folder](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in repository includes ready to use and experimental code with ESPi, some listed below -> 
+   - [Example 1]() : Display demo code
+   - [Example 2]() :
+   - [Example 3]() : 
+     
 Play with it and create your own, **Happy Coding!** 
 
 
