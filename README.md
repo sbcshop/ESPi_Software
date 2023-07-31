@@ -1,12 +1,12 @@
 # ESPi_Software
 
-<img src ="" />
+<img src ="https://github.com/sbcshop/ESPi_Software/blob/main/images/ESPi%20Banner.jpg" />
 
 ESPi, with its powerful ESP32 and Ethernet, is the ideal answer for your networking requirements. Along with WiFi, this board supports a variety of internet protocols, including TCP, UDP, WOL over UDP, ICMP, IPv4, and others. 
 This repository contains a step-by-step guide for getting started with the ESPi board.
 
 ### ESPi Features:
-- Powered by ESP32 Wroom 32
+- Powered by ESP32-WROOM-32
 - ESP32 Multipurpose GPIO pins breakout for Additional peripheral interfacing
 - 1.14" TFT display for visual interaction
 - 5-way joystick for adding more control features for project
@@ -32,17 +32,26 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 - Ethernet TX/RX Buffer : 16KB
 - Operating temperature: -40°C to +85°C
   
-### Pinouts: 
-<img src="">
+## Getting Started with ESPi
+### Pinout
+<img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/ESPi_Pinout.jpg">
+
+- (1) RJ45 Ethernet
+- (2) 1.14” Display
+- (3) 5-way Joystick
+- (4) ESP32-WROOM-32
+- (5) & (9) Multipurpose GPIOs breakout
+- (6) Type C 
+- (7) BOOT Button
+- (8) RESET Button
 
 
+### Interfacing Details
 
-## Examples Codes  
- The example folder in repository includes ready to use and experimental code with NetPi 
-   - [examples/DHCP]() folder contains example about DHCP program.
-   - [examples/DNS]() folder contains example about DNS code.
-   - [examples/HTTP]() folder contains example about webserver and client using HTTP.
-   - and [Many more...](https://github.com/sbcshop/ESPi_Software/tree/main/examples)
+  
+  
+
+
 
 Play with it and create your own, **Happy Coding!** 
 
