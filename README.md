@@ -73,12 +73,12 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
   | ESP32 | Hardware |
   |---|---|
-  | GP25 | Joystick Selection |
-  | GP33 | Joystick Down | 
+  | GP25 | Joystick Selection/centre |
+  | GP35 | Joystick Down | 
   | GP32 | Joystick Up |
-  | GP35 | Joystick Left | 
-  | GP34 | Joystick Right | 
-  | BL   | Boot Button |
+  | GP34 | Joystick Left | 
+  | GP33 | Joystick Right | 
+  | GP0  | Boot Button |
   
 - Breakout GPIOs
 
