@@ -137,8 +137,8 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
 ## Examples Codes  
    The [example folder](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in repository includes ready to use and experimental code with ESPi, some listed below -> 
-   - [Example 1]() : Display demo code
-   - [Example 2]() :
+   - [Example 1](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_display) : Display demo code
+   - [Example 2]() : 
    - [Example 3]() : 
      
 Play with it and create your own, **Happy Coding!** 
