@@ -25,11 +25,13 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 - ESP32-WROOM-32 is a powerful, generic Wi-Fi + Bluetooth® + Bluetooth LE MCU
 - WiFi 802.11 b/g/n (802.11n up to 150 Mbps) support
 - Bluetooth v4.2 BR/EDR and Bluetooth LE specification
+- Board Supply voltage 5V, GPIO pins operating voltage 3.3V
 - Display Resolution 240x135
 - IPS Display 65K RGB Colors 
 - SPI Interface with ST7789 Display Driver
 - Ethernet Network Performance: Max.25Mbps
 - Ethernet TX/RX Buffer : 16KB
+
 - Operating temperature: -40°C to +85°C
   
 ## Getting Started with ESPi
@@ -128,7 +130,8 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 ### 3. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESPi.
-     <img src="">
+     
+     <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/code_uploading.gif">
      
    - Checkout other examples below and build your own custom program codes using those references.
 
