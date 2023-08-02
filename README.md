@@ -107,7 +107,9 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 ### 1. Configure and Setup Development Environment
    - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
    - Once installation done will add ESP32-Wroom-32 board support into IDE, for this first you need to add below link into preference:
-     ``` https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json ```
+     ``` 
+      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+     ```
      
      Select File > Preference, and add link as show in below image,
       <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/preference_board.gif" />
@@ -138,19 +140,21 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 ### 4. Before Trying Ethernet Server code follow below steps
   To compile and run Ethernet server codes without getting compile Error , 
   You will have to replace default "Server.h" file comes when ESP32 board installed in Arduino, location is shown below 
-    ```
+  ```
     C:\Users\YourUserName\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.9\cores\esp32
-    ```
+  ```
   
   Replace with file ["Server.h"](https://github.com/sbcshop/ESPi_Software/blob/main/examples/Server.h) provided here in github. 
     
   <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/server_file_location.png">
     
 ## Examples Codes  
-   The [example folder](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in repository includes ready to use and experimental code with ESPi, some listed below -> 
+   The example folder in repository includes ready to use and experimental code with ESPi, some listed below -> 
    - [Example 1](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_display) : Display demo code
    - [Example 2]() : 
-   - [Example 3]() : 
+   - [Example 3](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_WiFi_Ethernet_coexists) : Combine test of EthernetWebServer and WiFiWebServer on ESPi board
+   - [Example 4](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_thingspeak) : Application demo code to connect ESPi board with ThingSpeak cloud server using onboard ethernet facility 
+   - and [More...](https://github.com/sbcshop/ESPi_Software/tree/main/examples)
      
 Play with it and create your own, **Happy Coding!** 
 
