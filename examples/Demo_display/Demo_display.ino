@@ -1,9 +1,13 @@
-// Demo code for testing 1.14" Display 
+/******************************************************************************************************
+ * Demo code for testing onboard 1.14" Display of ESPi Board
+ *
+ * For more code examples of ESPi board: https://github.com/sbcshop/ESPi_Software/tree/main/examples
+ ******************************************************************************************************/
 
 // include some graphics library 
 #include <SPI.h>
 #include <Adafruit_GFX.h>    // Core graphics library
-#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
+#include <Adafruit_ST7789.h> // ST7789 display driver library
 
 // define Display SPI pins 
 #define TFT_CLK       14
