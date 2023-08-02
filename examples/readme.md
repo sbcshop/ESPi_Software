@@ -1,4 +1,4 @@
-### For Ethernet server code compilation 
+### For Successful Ethernet server code compilation 
 
 To compile and run Ethernet server codes without getting compile Error , 
 You will have to replace default "Server.h" file present inside folder shown below 
