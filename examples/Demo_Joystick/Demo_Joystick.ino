@@ -1,4 +1,8 @@
-// Demo code to test onboard 5-Way Joystick
+/******************************************************************************************************
+ * Demo code to test onboard 5-Way Joystick of ESPi Board
+ *
+ * For more code examples of ESPi board: https://github.com/sbcshop/ESPi_Software/tree/main/examples
+ ******************************************************************************************************/
 
 const int upBtn = 32;  
 const int downBtn = 35; 
