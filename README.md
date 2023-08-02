@@ -135,6 +135,17 @@ This repository contains a step-by-step guide for getting started with the ESPi 
      
    - Checkout other examples below and build your own custom program codes using those references.
 
+### 4. Before Trying Ethernet Server code follow below steps
+  To compile and run Ethernet server codes without getting compile Error , 
+  You will have to replace default "Server.h" file comes when ESP32 board installed in Arduino, location is shown below 
+    ```
+    C:\Users\YourUserName\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.9\cores\esp32
+    ```
+  
+  Replace with file ["Server.h"](https://github.com/sbcshop/ESPi_Software/blob/main/examples/Server.h) provided here in github. 
+    
+  <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/server_file_location.png">
+    
 ## Examples Codes  
    The [example folder](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in repository includes ready to use and experimental code with ESPi, some listed below -> 
    - [Example 1](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_display) : Display demo code
