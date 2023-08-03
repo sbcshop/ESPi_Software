@@ -149,12 +149,11 @@ This repository contains a step-by-step guide for getting started with the ESPi 
   <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/server_file_location.png">
     
 ## Examples Codes  
-   The example folder in repository includes ready to use and experimental code with ESPi, some listed below -> 
+   The [examples](https://github.com/sbcshop/ESPi_Software/tree/main/examples) folder in repository includes ready to use and experimental code with ESPi, some listed below -> 
    - [Example 1](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_display) : Display demo code
-   - [Example 2]() : 
+   - [Example 2](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_WiFiWebapp_server) : WiFi Webserver application demo
    - [Example 3](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_WiFi_Ethernet_coexists) : Combine test of EthernetWebServer and WiFiWebServer on ESPi board
    - [Example 4](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_thingspeak) : Application demo code to connect ESPi board with ThingSpeak cloud server using onboard ethernet facility 
-   - and [More...](https://github.com/sbcshop/ESPi_Software/tree/main/examples)
      
 Play with it and create your own, **Happy Coding!** 
 
