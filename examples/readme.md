@@ -9,6 +9,9 @@ with file ["Server.h"](https://github.com/sbcshop/ESPi_Software/blob/main/exampl
 
 <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/server_file_location.png">
 
+### [Demo_WiFiWebapp_server](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_WiFiWebapp_server) : Try WiFi web server application 
+
+<img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/wifiwebserver_app_screenshot.png">
 
 ### [Demo_thingspeak](https://github.com/sbcshop/ESPi_Software/tree/main/examples/Demo_thingspeak) : Connects ESPi Board to Thingspeak cloud to send data using Ethernet
 
