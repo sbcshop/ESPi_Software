@@ -6,7 +6,7 @@ ESPi, with its powerful ESP32 and Ethernet, is the ideal answer for your network
 This repository contains a step-by-step guide for getting started with the ESPi board.
 
 ### ESPi Features:
-- Powered by ESP32-WROOM-32
+- Powered by **ESP32-WROOM-32**
 - ESP32 Multipurpose GPIO pins breakout for Additional peripheral interfacing
 - 1.14" TFT display for visual interaction
 - 5-way joystick for adding more control features for project
@@ -22,7 +22,7 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 - Onboard Boot and reset button
 
 ### ESPi Specifications:
-- ESP32-WROOM-32 is a powerful, generic Wi-Fi + Bluetooth® + Bluetooth LE MCU
+- **ESP32-WROOM-32** is a powerful, generic Wi-Fi + Bluetooth® + Bluetooth LE MCU
 - WiFi 802.11 b/g/n (802.11n up to 150 Mbps) support
 - Bluetooth v4.2 BR/EDR and Bluetooth LE specification
 - Board Supply voltage 5V, GPIO pins operating voltage 3.3V
@@ -106,7 +106,7 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
 ### 1. Configure and Setup Development Environment
    - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
-   - Once installation done will add ESP32-Wroom-32 board support into IDE, for this first you need to add below link into preference:
+   - Once installation done will add **ESP32-Wroom-32** board support into IDE, for this first you need to add below link into preference:
      ``` 
       https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
      ```
@@ -118,24 +118,24 @@ This repository contains a step-by-step guide for getting started with the ESPi 
 
      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/install_ESP32boards.gif" />
      
-   - Once done, keeping default settings select the ESP32 Dev Module with suitable com port (may be different in your case) as shown below, 
+   - Once done, keeping default settings select the _**ESP32 Dev Module**_ with suitable com port (may be different in your case) as shown below, 
 
      <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/board_selection.gif">
      
      
 ### 2. Installing Libraries
-   - Download [library zip file]() provided here in github.
+   - Download [library zip file](https://github.com/sbcshop/ESPi_Software/blob/main/libraries.zip) provided here in github.
    - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
 
      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
      
 ### 3. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ESPi_Software/tree/main/examples) in github which you can download and try. 
-   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESPi.
+   - Open one example code in Arduino and make sure you have selected correct board ( _**ESP32 Dev Module**_) with suitable com port, click on upload button to transfer code on ESPi.
      
      <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/code_uploading.gif">
      
-   - Checkout other examples below and build your own custom program codes using those references.
+   - Checkout other [examples below](https://github.com/sbcshop/ESPi_Software/tree/main#examples-codes) and build your own custom program codes using those references.
 
 ### 4. Before Trying Ethernet Server code follow below steps
   To compile and run Ethernet server codes without getting compile Error , 
