@@ -121,6 +121,15 @@ This repository contains a step-by-step guide for getting started with the ESPi 
    - Once done, keeping default settings select the _**ESP32 Dev Module**_ with suitable com port (may be different in your case) as shown below, 
 
      <img src="https://github.com/sbcshop/ESPi_Software/blob/main/images/board_selection.gif">
+
+  - In case you don't see com port then you will have to install CP2102 driver from [Link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads). Download and install as per your operating system.
+       * check below one recommmend for windows user
+
+         <img src="https://github.com/sbcshop/Ardi-32_Software/blob/main/images/cp2102_driver_link.png" width="626" height="377">
+         
+       * Once installed correctly, it will look like the image below.
+         
+         <img src="https://github.com/sbcshop/Ardi-32_Software/blob/main/images/device_manager_view.png" width="488" height="353">
      
      
 ### 2. Installing Libraries
